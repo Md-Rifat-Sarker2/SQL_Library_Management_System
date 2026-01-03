@@ -1,14 +1,14 @@
-# Library Management System using SQL Project --P2
+# Library Management System Project
 
 ## Project Overview
 
 **Project Title**: Library Management System  
 **Level**: Intermediate  
-**Database**: `library_db`
+**Database**: `library_project`
 
 This project demonstrates the implementation of a Library Management System using SQL. It includes creating and managing tables, performing CRUD operations, and executing advanced SQL queries. The goal is to showcase skills in database design, manipulation, and querying.
 
-![Library_project](https://github.com/najirh/Library-System-Management---P2/blob/main/library.jpg)
+![Library_project](https://github.com/Md-Rifat-Sarker2/SQL_Library_Management_System/blob/main/library.jpg)
 
 ## Objectives
 
@@ -20,13 +20,13 @@ This project demonstrates the implementation of a Library Management System usin
 ## Project Structure
 
 ### 1. Database Setup
-![ERD](https://github.com/najirh/Library-System-Management---P2/blob/main/library_erd.png)
+![ERD](https://github.com/Md-Rifat-Sarker2/SQL_Library_Management_System/blob/main/library_erd.png)
 
-- **Database Creation**: Created a database named `library_db`.
+- **Database Creation**: Created a database named `library_project`.
 - **Table Creation**: Created tables for branches, employees, members, books, issued status, and return status. Each table includes relevant columns and relationships.
 
 ```sql
-CREATE DATABASE library_db;
+CREATE DATABASE library_project;
 
 DROP TABLE IF EXISTS branch;
 CREATE TABLE branch
@@ -39,7 +39,7 @@ CREATE TABLE branch
 
 
 -- Create table "Employee"
-DROP TABLE IF EXISTS employees;
+DROP TABLE IF EXISTS employeesd
 CREATE TABLE employees
 (
             emp_id VARCHAR(10) PRIMARY KEY,
